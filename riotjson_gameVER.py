@@ -1,5 +1,5 @@
 '''\
-riot_gameVersion.py
+riotjson_gameVER.py
 
 This version:
     0. Load JSON
@@ -23,6 +23,7 @@ with open(JSON_EXTRACT_FILE, 'r') as json_read:
 gameVER = jsd['gameVersion']
 #print(gameVER)
 
+#Converted gameVersion to dictionary, string would not work
 dict_gameVER = {'Game Version':[gameVER]}
 #print(df_gameVER)
 
